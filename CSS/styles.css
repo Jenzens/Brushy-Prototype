@@ -1,0 +1,79 @@
+h1{
+    font-size: 24px;
+}
+
+p.cText{
+    color: white;
+}
+
+p.footerBig{
+    font-family: 'Pacifico';
+    font-size: 30px;
+    color: white;
+}
+
+p.footerSmall{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    color: white;
+}
+
+p.bigText{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+    transition: all 1.5s ease-in;
+}
+
+p.binfoNum{
+    /* font-family: 'Caveat Brush', cursive; */
+    font-family: 'Caveat Brush', cursive;
+    transform: rotate(-20deg);
+    font-size: 80px;
+    margin: -60px 10px 0 -20px;
+    color: white;
+}
+
+p.txtboxBig{
+    font-family: 'Pacifico';
+    transform: rotate(-20deg);
+    font-size: 70px;
+    z-index: 900;
+    margin: -20px 0 0 0px; 
+}
+
+p.txtboxPres{
+    font-family: 'Pacifico';
+    transform: rotate(-20deg);
+    font-size: 100px;
+    z-index: 900;
+    margin: -20px 0 0 0px; 
+}
+
+
+p.txtboxSmall{
+    font-family: 'Pacifico';
+    transform: rotate(-20deg);
+    font-size: 40px;
+    /* margin: -40px 10px 0 130px; */
+    color: rgb(243, 77, 99);
+}
+
+p.binfoHeader{
+    font-family: 'Pacifico';
+    margin: -20px 0 0 0px; 
+    font-size: 18px;
+    /* margin: -40px 10px 0 130px; */
+    color: white;
+}
+
+p.links{
+    font-family: 'Pacifico';
+    font-size: 18px;
+    color: white;
+
+}
+
+a{
+    color: white;
+    font-size: 14px;
+}

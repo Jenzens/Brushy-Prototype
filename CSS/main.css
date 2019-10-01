@@ -1,0 +1,465 @@
+/* header */
+body {
+    margin:0;
+}
+
+.header{
+    height: 100vh;
+    background:rgb(147, 204, 210);
+    display: flex;
+    align-items: center;
+}
+
+.h-text-wrapper {
+    min-height: 250px;
+    width:  100%;
+    justify-content: center;
+  
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 0px;
+}
+
+.h-textbox-item-1{
+    border: 1px solid red;
+    min-height: 250px;
+    width:50%;
+    max-width: 80vh;
+    text-align: center;
+}
+
+.h-textbox-item-2{
+    border: 1px solid red;
+    height: auto;
+    min-height: 250px;
+    width:50%;
+    max-width: 80vh;
+    text-align: center;
+}
+
+/* cld-objects */
+.cld-wrapper{
+    width: 100%;
+    background: white;
+}
+    .cld-box-1 {
+        height: 50px;
+
+    }
+
+    .cld-box-2 {
+        border: 1px solid transparent;
+        min-height: 350px;
+        background-color: rgb(223, 76, 95);
+    }
+
+    .cld-bottom-box {
+        height: 100px;
+        background-color: white;
+
+    }
+
+    .cld-bottom-box-download {
+        height: 100px;
+        margin: -2px 0 0 0;
+        background-color: white;
+
+    }
+
+/* buttons */
+    .cld-items-container {
+        min-height: 50px;
+        margin: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+        .leftsway-item{
+            height: auto;
+            padding: 10px;
+            margin-top: 30px;
+            max-width: 350px;
+            min-width: 150px;
+        }
+            .leftsway-item:hover > .leftsway-item-icon{
+                transform: translateY(-5px)
+            }
+
+            .leftsway-item:hover > .leftsway-item-text{
+                transform: translateY(5px)
+            }
+     
+            .leftsway-item-icon{
+                text-align: center;
+                transition: all 0.5s ease-in-out;
+                min-width:20%;
+            }
+
+            .leftsway-item-icon img {
+                max-width: 20%;
+                min-width: 10%
+            }
+
+            .leftsway-item-text{
+                text-align: center;
+                height: 20px;
+                color:white;
+                transition: all 0.5s ease-in-out
+            }
+
+/* edges */
+            .cld-edge-left-up{
+                width: 100%;
+                height: 50px;
+                position: absolute;
+                clip-path: polygon(100% 0, 0 0, 0 75%);
+                margin: -2px;
+                background: white;
+            }
+
+            .cld-edge-left-down{
+                width: 100%;
+                height: 50px;
+                position: absolute;
+                clip-path: polygon(100% 0, 0 0, 0 75%);
+                background: rgb(223, 76, 95);
+            }
+        
+            .cld-edge-right-up{
+                width: 100%;
+                height: 50px;
+                position: absolute;
+                clip-path: polygon(100% 0, 100% 75%, 0 0);
+                margin: -2px 0 0 -1px;
+                background: white;
+        
+            }
+        
+            .cld-edge-right-down{
+                width: 100%;
+                height: 50px;
+                position: absolute;
+                clip-path: polygon(100% 100%, 0 25%, 0 100%);
+                margin: -50px 0 0 -2px;
+                background: white;
+        
+            }
+
+            .cld-img-edge-right-down{
+                width: 100%;
+                height: 50px;
+                position: absolute;
+                clip-path: polygon(100% 100%, 0 25%, 0 100%);
+                margin: -48px 0 0 -2px;
+                background: white;
+                
+        
+            }
+
+
+/* contents */
+
+
+/* spec brushimage */
+
+.c-brush-box-2 {
+    border: 1px solid transparent;
+    min-height: 450px;
+    background-image:url('../img/odo.jpg');
+    background-size: cover ;
+    background-position-y: 20%;
+    background-position-x: 20%;
+}
+
+.cld-brush-bottom-box {
+    height: 25px;
+    background-color: white;
+}
+
+/* spec brushinfo */
+
+.arrow-wrapper {
+    height: auto;
+    width:  100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background: #4a4b4a;
+}
+    .arrow-down{
+        width: 0; 
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 25px solid #ffffff;
+    }
+
+.cld-brush-box-1 {
+    height: 15px;
+}
+
+.cld-brush-box-2 {
+    border: 1px solid transparent;
+    min-height: 350px;
+    background-color: #4a4b4a;
+}
+
+.b-text-wrapper {
+    min-height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 0px;
+
+}
+
+.b-textbox-item-wraps{
+    margin-top:20px;
+}
+
+.b-img-wrapper{
+    flex-flow: column;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.b-textbox-item{
+    width:70%;
+    max-width: 50%;
+    max-height: 20px;
+    padding: 0 10px 0 0px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+         box-shadow: 0 8px 6px -6px black;
+}
+
+.b-textbox-item-img{
+    width:70%;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    /* background-color: #464646; */
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+         box-shadow: 0 8px 6px -6px black;
+}
+
+    .b-textbox-item-img img {
+        max-width: 100%;
+    }
+
+.cld-brush-edge-left-down{
+    width: 100%;
+    height: 50px;
+    margin: -1px;
+    position: absolute;
+    clip-path: polygon(100% 0, 0 0, 0 75%);
+    background: #4a4b4a;
+}
+
+/* textbox */
+
+.textbox-wrapper {
+    min-height: 250px;
+    width:  100%;
+    background: white;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 0px;
+    margin:-1px 0 0 0px;
+}
+
+.textbox-item-1{
+    border: 1px solid red;
+    min-height: 250px;
+    width:100%;
+    max-width: 80vh;
+    text-align: center;
+}
+
+.textbox-item-2{
+
+    height: auto;
+    min-height: 250px;
+    width:50%;
+    max-width: 80vh;
+    text-align: center;
+}
+
+/* header textbox*/
+
+.header-textbox-item-1{
+    height: 200px;
+    width:100%;
+    text-align: center;
+    background: white;
+}
+
+/*header textbox*/
+.brush-wrapper {
+    min-height: 250px;
+    width:  100%;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.textbox-container-brush{
+    min-height: 250px;
+    width:100%;
+    max-width: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.textbox-icon-brush {
+    width: 200px;
+    position: absolute;
+    margin: -25px 0 0 100px; 
+}
+
+.textbox-icon-brush img{
+    width:50%;
+    margin: 60px 0 0 0px; 
+    
+}
+
+/* showcase textbox*/
+.showcase-wrapper {
+    min-height: 250px;
+    width:  100%;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.textbox-container-showcase{
+    min-height: 250px;
+    width:100%;
+    max-width: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.textbox-icon-showcase-1 {
+    width: 200px;
+    position: absolute;
+    margin: -35px 0 0 -15px;
+    transform: rotate(-20deg);
+}
+
+.textbox-icon-showcase-1 img{
+    width:60%;
+    margin: 60px 0 0 0px; 
+    
+}
+
+/* textbox bgs */
+
+.textbox-icon-pres {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(223, 76, 95);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.textbox-icon-showcase-2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(223, 76, 95);
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* spec footer */
+
+.footer-wrapper{
+    width: 100%;
+}
+
+.footer-box-1 {
+    height: 50px;
+}
+
+.footer-box-2 {
+    border: 1px solid transparent;
+    min-height: 350px;
+    background: #4a4b4a;
+}
+
+.footer-edge-right-up{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    clip-path: polygon(100% 0, 100% 75%, 0 0);
+    margin: -2px 0 0 -1px;
+    background: white;
+
+}
+
+
+#canvas-container {
+    width: 400px;
+    height: 400px;
+}
+
+.canvas-wrapper{
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+}
+
+.canvas-text-box{
+    width: 350px;
+    height: auto;
+ 
+}
+
+.navigation {
+    height: auto;
+    width:  90%;
+}
+
+
+/* icon links div */
+
+.iconLink-wrapper {
+    width:  100%;
+    margin: 10vh 0 0 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.iconLink-box{
+    width:40%;
+    max-width: 80vh;
+}
+
+.iconLink-img{
+    text-align: center;
+}
+
+.iconLink-img img {
+    width: 10%;
+}
